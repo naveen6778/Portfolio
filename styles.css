@@ -1,0 +1,101 @@
+
+h1, h2, h3, h4, h5, h6, p, body{
+    margin: 0;
+}
+p{
+    font-size: 12px;
+    padding: 16px 0;
+}
+/* layout */
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+/* home page*/
+.name-bg{
+    background-color: orange;
+    display: inline-block ;
+    padding: 4px 10px;
+}
+
+.home{
+    margin: auto 0;
+}
+.home-txt{
+    padding: 25px;
+}
+.btn{
+    background-color: orange;
+    display: inline-block;
+    padding: 4px 8px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+#profile-name{
+    -webkit-text-stroke: 1px orange;
+    color: white;
+}
+.profile-name{
+    font-size: 32px;
+    padding: 16px 0;
+}
+.main-menu-bg{
+    background-color: orange;
+
+}
+.main-menu img{
+    width: 100%;
+    background-color: white;
+}
+
+/* About me page*/
+.main-text-bg{
+    background-color: silver;
+}
+.main-text{
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    border: 1.5px dotted grey;
+    padding: 10px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
